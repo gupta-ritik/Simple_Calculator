@@ -9,7 +9,11 @@
     height: 100vh;
     /* background: #e3f9ff; */
     /* background-image: url("./Subject\ 1.png") ; */
-    background-image: repeating-radial-gradient(rgb(255, 0, 179), rgb(0, 170, 255) 10%, green 15%);
+    /* background-image: repeating-radial-gradient(rgb(255, 0, 179), rgb(0, 170, 255) 10%, green 15%); */
+    background-image: url(./bg.jpg);
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,6 +21,7 @@
 }
 .calculator{
     background-color: #35494c;
+    /* background-color: rgba(246, 23, 23, 0.5); */
     padding: 20px;
     border-radius: 10px;
 
